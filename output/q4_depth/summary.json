@@ -1,0 +1,366 @@
+{
+  "official": {
+    "cases": 1,
+    "distinct_value_vectors": 1,
+    "mistakes": 1,
+    "mistake_fraction": 1,
+    "mean_regret": 2,
+    "max_regret": 2,
+    "different_but_optimal": 0,
+    "tie_classes": {
+      "all_correct": 0,
+      "mixed": 0,
+      "all_wrong": 1
+    },
+    "tie_policies": {
+      "default": {
+        "mistakes": 1,
+        "mistake_fraction": 1,
+        "mean_regret": 2,
+        "max_regret": 2,
+        "changed_first_moves": 0,
+        "repaired_mistakes": 0,
+        "introduced_mistakes": 0
+      },
+      "reverse": {
+        "mistakes": 1,
+        "mistake_fraction": 1,
+        "mean_regret": 2,
+        "max_regret": 2,
+        "changed_first_moves": 0,
+        "repaired_mistakes": 0,
+        "introduced_mistakes": 0
+      },
+      "nearest": {
+        "mistakes": 1,
+        "mistake_fraction": 1,
+        "mean_regret": 2,
+        "max_regret": 2,
+        "changed_first_moves": 0,
+        "repaired_mistakes": 0,
+        "introduced_mistakes": 0
+      },
+      "gain": {
+        "mistakes": 1,
+        "mistake_fraction": 1,
+        "mean_regret": 2,
+        "max_regret": 2,
+        "changed_first_moves": 0,
+        "repaired_mistakes": 0,
+        "introduced_mistakes": 0
+      }
+    }
+  },
+  "scan_T1": {
+    "cases": 20,
+    "distinct_value_vectors": 20,
+    "mistakes": 5,
+    "mistake_fraction": 0.25,
+    "mean_regret": 0.8,
+    "max_regret": 6,
+    "different_but_optimal": 0,
+    "tie_classes": {
+      "all_correct": 15,
+      "mixed": 1,
+      "all_wrong": 4
+    },
+    "tie_policies": {
+      "default": {
+        "mistakes": 5,
+        "mistake_fraction": 0.25,
+        "mean_regret": 0.8,
+        "max_regret": 6,
+        "changed_first_moves": 0,
+        "repaired_mistakes": 0,
+        "introduced_mistakes": 0
+      },
+      "reverse": {
+        "mistakes": 4,
+        "mistake_fraction": 0.2,
+        "mean_regret": 0.7,
+        "max_regret": 6,
+        "changed_first_moves": 1,
+        "repaired_mistakes": 1,
+        "introduced_mistakes": 0
+      },
+      "nearest": {
+        "mistakes": 5,
+        "mistake_fraction": 0.25,
+        "mean_regret": 0.8,
+        "max_regret": 6,
+        "changed_first_moves": 0,
+        "repaired_mistakes": 0,
+        "introduced_mistakes": 0
+      },
+      "gain": {
+        "mistakes": 5,
+        "mistake_fraction": 0.25,
+        "mean_regret": 0.8,
+        "max_regret": 6,
+        "changed_first_moves": 0,
+        "repaired_mistakes": 0,
+        "introduced_mistakes": 0
+      }
+    }
+  },
+  "scan_T2": {
+    "cases": 20,
+    "distinct_value_vectors": 20,
+    "mistakes": 2,
+    "mistake_fraction": 0.1,
+    "mean_regret": 0.2,
+    "max_regret": 2,
+    "different_but_optimal": 0,
+    "tie_classes": {
+      "all_correct": 18,
+      "mixed": 1,
+      "all_wrong": 1
+    },
+    "tie_policies": {
+      "default": {
+        "mistakes": 2,
+        "mistake_fraction": 0.1,
+        "mean_regret": 0.2,
+        "max_regret": 2,
+        "changed_first_moves": 0,
+        "repaired_mistakes": 0,
+        "introduced_mistakes": 0
+      },
+      "reverse": {
+        "mistakes": 1,
+        "mistake_fraction": 0.05,
+        "mean_regret": 0.1,
+        "max_regret": 2,
+        "changed_first_moves": 1,
+        "repaired_mistakes": 1,
+        "introduced_mistakes": 0
+      },
+      "nearest": {
+        "mistakes": 2,
+        "mistake_fraction": 0.1,
+        "mean_regret": 0.2,
+        "max_regret": 2,
+        "changed_first_moves": 0,
+        "repaired_mistakes": 0,
+        "introduced_mistakes": 0
+      },
+      "gain": {
+        "mistakes": 2,
+        "mistake_fraction": 0.1,
+        "mean_regret": 0.2,
+        "max_regret": 2,
+        "changed_first_moves": 0,
+        "repaired_mistakes": 0,
+        "introduced_mistakes": 0
+      }
+    }
+  },
+  "scan_T3": {
+    "cases": 20,
+    "distinct_value_vectors": 20,
+    "mistakes": 3,
+    "mistake_fraction": 0.15,
+    "mean_regret": 0.7,
+    "max_regret": 6,
+    "different_but_optimal": 0,
+    "tie_classes": {
+      "all_correct": 17,
+      "mixed": 2,
+      "all_wrong": 1
+    },
+    "tie_policies": {
+      "default": {
+        "mistakes": 3,
+        "mistake_fraction": 0.15,
+        "mean_regret": 0.7,
+        "max_regret": 6,
+        "changed_first_moves": 0,
+        "repaired_mistakes": 0,
+        "introduced_mistakes": 0
+      },
+      "reverse": {
+        "mistakes": 1,
+        "mistake_fraction": 0.05,
+        "mean_regret": 0.1,
+        "max_regret": 2,
+        "changed_first_moves": 2,
+        "repaired_mistakes": 2,
+        "introduced_mistakes": 0
+      },
+      "nearest": {
+        "mistakes": 1,
+        "mistake_fraction": 0.05,
+        "mean_regret": 0.1,
+        "max_regret": 2,
+        "changed_first_moves": 2,
+        "repaired_mistakes": 2,
+        "introduced_mistakes": 0
+      },
+      "gain": {
+        "mistakes": 1,
+        "mistake_fraction": 0.05,
+        "mean_regret": 0.1,
+        "max_regret": 2,
+        "changed_first_moves": 2,
+        "repaired_mistakes": 2,
+        "introduced_mistakes": 0
+      }
+    }
+  },
+  "scan_T4": {
+    "cases": 20,
+    "distinct_value_vectors": 20,
+    "mistakes": 14,
+    "mistake_fraction": 0.7,
+    "mean_regret": 1.7,
+    "max_regret": 4,
+    "different_but_optimal": 1,
+    "tie_classes": {
+      "all_correct": 6,
+      "mixed": 0,
+      "all_wrong": 14
+    },
+    "tie_policies": {
+      "default": {
+        "mistakes": 14,
+        "mistake_fraction": 0.7,
+        "mean_regret": 1.7,
+        "max_regret": 4,
+        "changed_first_moves": 0,
+        "repaired_mistakes": 0,
+        "introduced_mistakes": 0
+      },
+      "reverse": {
+        "mistakes": 14,
+        "mistake_fraction": 0.7,
+        "mean_regret": 1.9,
+        "max_regret": 6,
+        "changed_first_moves": 1,
+        "repaired_mistakes": 0,
+        "introduced_mistakes": 0
+      },
+      "nearest": {
+        "mistakes": 14,
+        "mistake_fraction": 0.7,
+        "mean_regret": 1.7,
+        "max_regret": 4,
+        "changed_first_moves": 0,
+        "repaired_mistakes": 0,
+        "introduced_mistakes": 0
+      },
+      "gain": {
+        "mistakes": 14,
+        "mistake_fraction": 0.7,
+        "mean_regret": 1.7,
+        "max_regret": 4,
+        "changed_first_moves": 0,
+        "repaired_mistakes": 0,
+        "introduced_mistakes": 0
+      }
+    }
+  },
+  "grid_T2_T3": {
+    "cases": 400,
+    "distinct_value_vectors": 400,
+    "mistakes": 27,
+    "mistake_fraction": 0.0675,
+    "mean_regret": 0.29,
+    "max_regret": 6,
+    "different_but_optimal": 0,
+    "tie_classes": {
+      "all_correct": 373,
+      "mixed": 10,
+      "all_wrong": 17
+    },
+    "tie_policies": {
+      "default": {
+        "mistakes": 27,
+        "mistake_fraction": 0.0675,
+        "mean_regret": 0.29,
+        "max_regret": 6,
+        "changed_first_moves": 0,
+        "repaired_mistakes": 0,
+        "introduced_mistakes": 0
+      },
+      "reverse": {
+        "mistakes": 21,
+        "mistake_fraction": 0.0525,
+        "mean_regret": 0.19,
+        "max_regret": 6,
+        "changed_first_moves": 24,
+        "repaired_mistakes": 6,
+        "introduced_mistakes": 0
+      },
+      "nearest": {
+        "mistakes": 20,
+        "mistake_fraction": 0.05,
+        "mean_regret": 0.17,
+        "max_regret": 6,
+        "changed_first_moves": 10,
+        "repaired_mistakes": 7,
+        "introduced_mistakes": 0
+      },
+      "gain": {
+        "mistakes": 23,
+        "mistake_fraction": 0.0575,
+        "mean_regret": 0.23,
+        "max_regret": 6,
+        "changed_first_moves": 4,
+        "repaired_mistakes": 4,
+        "introduced_mistakes": 0
+      }
+    }
+  },
+  "random": {
+    "cases": 1000,
+    "distinct_value_vectors": 998,
+    "mistakes": 139,
+    "mistake_fraction": 0.139,
+    "mean_regret": 0.534,
+    "max_regret": 6,
+    "different_but_optimal": 25,
+    "tie_classes": {
+      "all_correct": 842,
+      "mixed": 51,
+      "all_wrong": 107
+    },
+    "tie_policies": {
+      "default": {
+        "mistakes": 139,
+        "mistake_fraction": 0.139,
+        "mean_regret": 0.534,
+        "max_regret": 6,
+        "changed_first_moves": 0,
+        "repaired_mistakes": 0,
+        "introduced_mistakes": 0
+      },
+      "reverse": {
+        "mistakes": 129,
+        "mistake_fraction": 0.129,
+        "mean_regret": 0.494,
+        "max_regret": 6,
+        "changed_first_moves": 85,
+        "repaired_mistakes": 29,
+        "introduced_mistakes": 19
+      },
+      "nearest": {
+        "mistakes": 111,
+        "mistake_fraction": 0.111,
+        "mean_regret": 0.378,
+        "max_regret": 6,
+        "changed_first_moves": 34,
+        "repaired_mistakes": 28,
+        "introduced_mistakes": 0
+      },
+      "gain": {
+        "mistakes": 124,
+        "mistake_fraction": 0.124,
+        "mean_regret": 0.456,
+        "max_regret": 6,
+        "changed_first_moves": 35,
+        "repaired_mistakes": 22,
+        "introduced_mistakes": 7
+      }
+    }
+  }
+}

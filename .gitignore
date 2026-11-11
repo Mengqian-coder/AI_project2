@@ -1,0 +1,22 @@
+# Local environments, caches and editor state
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.vscode/
+.idea/
+~$*
+
+# Temporary work and submission archives
+/tmp/
+/dist/
+*.zip
+
+# Local notes, source handouts and superseded drafts
+/docs/
+/评分要求.md
+/实验二要求_new.pdf
+/实验二综合实验报告_*
+
+# Exploratory narrative exports are local reading material
+/output/*/report.md

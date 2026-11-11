@@ -1,0 +1,2 @@
+# Only needed for experiment figures; core algorithms and unittest use stdlib.
+matplotlib==3.11.2
